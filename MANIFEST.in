@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include shaheen *.css
+recursive-include shaheen *.csv
+recursive-include shaheen *.html
+recursive-include shaheen *.ico
+recursive-include shaheen *.js
+recursive-include shaheen *.json
+recursive-include shaheen *.md
+recursive-include shaheen *.png
+recursive-include shaheen *.py
+recursive-include shaheen *.svg
+recursive-include shaheen *.txt
+recursive-exclude shaheen *.pyc
