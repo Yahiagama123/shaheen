@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Visit List.#####",
+ "creation": "2023-03-02 11:36:27.869520",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "day",
+  "column_break_r9cho",
+  "date",
+  "section_break_n2y7a",
+  "list"
+ ],
+ "fields": [
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "label": "Day",
+   "options": "\n\u0627\u0644\u0633\u0628\u062a\n\u0627\u0644\u0627\u062d\u062f\n\u0627\u0644\u0627\u062b\u0646\u064a\u0646\n\u0627\u0644\u062b\u0644\u0627\u062b\u0627\u0621\n\u0627\u0644\u0627\u0631\u0628\u0639\u0627\u0621\n\u0627\u0644\u062e\u0645\u064a\u0633\n\u0627\u0644\u062c\u0645\u0639\u0647"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "list",
+   "fieldtype": "Table",
+   "label": "List",
+   "options": "tabvisit"
+  },
+  {
+   "fieldname": "column_break_r9cho",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_n2y7a",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-02 11:38:14.704389",
+ "modified_by": "Administrator",
+ "module": "security",
+ "name": "Visit",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
