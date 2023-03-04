@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ListEXTRA.####",
+ "creation": "2023-03-02 13:52:42.849118",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "security_officer",
+  "column_break_lesef",
+  "security_manager",
+  "section_break_nwoi6",
+  "date",
+  "list"
+ ],
+ "fields": [
+  {
+   "fieldname": "security_officer",
+   "fieldtype": "Link",
+   "label": "Security Officer",
+   "options": "Employees"
+  },
+  {
+   "fieldname": "security_manager",
+   "fieldtype": "Link",
+   "label": "Security Manager",
+   "options": "Employees"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "list",
+   "fieldtype": "Table",
+   "label": "List",
+   "options": "tabextra"
+  },
+  {
+   "fieldname": "column_break_lesef",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nwoi6",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-02 16:00:58.292409",
+ "modified_by": "Administrator",
+ "module": "security",
+ "name": "DoupleNight",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

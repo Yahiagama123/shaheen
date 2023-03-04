@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-02 13:46:52.362507",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "enter_time",
+  "department",
+  "exit_date",
+  "exit_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Title",
+   "options": "Employees",
+   "reqd": 1
+  },
+  {
+   "fieldname": "enter_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "Enter Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "exit_time",
+   "fieldtype": "Time",
+   "label": "Exit Time"
+  },
+  {
+   "fetch_from": "title.department",
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "exit_date",
+   "fieldtype": "Date",
+   "label": "Exit Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-02 16:00:16.287438",
+ "modified_by": "Administrator",
+ "module": "security",
+ "name": "tabextra",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

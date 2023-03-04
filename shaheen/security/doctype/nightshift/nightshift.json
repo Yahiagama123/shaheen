@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ListNIGHT.####",
+ "creation": "2023-03-02 13:53:27.536885",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "security_officer",
+  "column_break_pvoai",
+  "security_manager",
+  "section_break_tof0z",
+  "date",
+  "section_break_4lems",
+  "list"
+ ],
+ "fields": [
+  {
+   "fieldname": "security_officer",
+   "fieldtype": "Link",
+   "label": "Security Officer",
+   "options": "Employees"
+  },
+  {
+   "fieldname": "security_manager",
+   "fieldtype": "Link",
+   "label": "Security Manager",
+   "options": "Employees"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "list",
+   "fieldtype": "Table",
+   "label": "List",
+   "options": "tabnight"
+  },
+  {
+   "fieldname": "column_break_pvoai",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4lems",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_tof0z",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-02 14:07:26.280135",
+ "modified_by": "Administrator",
+ "module": "security",
+ "name": "NightShift",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
