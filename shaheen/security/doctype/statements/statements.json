@@ -10,11 +10,9 @@
  "field_order": [
   "declares_exit",
   "department",
-  "security_officer",
   "column_break_yg3je",
   "num",
   "manager",
-  "phone",
   "section_break_kkqfk",
   "empolyee",
   "column_break_2oyji",
@@ -35,24 +33,13 @@
    "fieldname": "department",
    "fieldtype": "Link",
    "label": "Department",
-   "options": "Department"
+   "options": "Departments"
   },
   {
    "fieldname": "manager",
    "fieldtype": "Link",
    "label": "Department Manager",
    "options": "Employees"
-  },
-  {
-   "fieldname": "security_officer",
-   "fieldtype": "Link",
-   "label": "security officer",
-   "options": "Employees"
-  },
-  {
-   "fieldname": "phone",
-   "fieldtype": "Data",
-   "label": "security officer Phone"
   },
   {
    "fieldname": "fix",
@@ -80,7 +67,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-02 11:22:25.130026",
+ "modified": "2023-03-04 15:07:17.678038",
  "modified_by": "Administrator",
  "module": "security",
  "name": "Statements",
