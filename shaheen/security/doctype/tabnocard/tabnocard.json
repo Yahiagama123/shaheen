@@ -16,7 +16,7 @@
    "fieldname": "title",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Title",
+   "label": "EmpTitle",
    "options": "Employees",
    "reqd": 1
   },
@@ -41,7 +41,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-03-02 15:53:59.413332",
+ "modified": "2023-03-04 15:35:32.361341",
  "modified_by": "Administrator",
  "module": "security",
  "name": "tabnocard",

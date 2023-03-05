@@ -18,7 +18,7 @@
    "fieldname": "title",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Title",
+   "label": "EmpTitle",
    "options": "Employees",
    "reqd": 1
   },
@@ -50,7 +50,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-03-04 15:10:45.500096",
+ "modified": "2023-03-04 15:35:11.966781",
  "modified_by": "Administrator",
  "module": "security",
  "name": "tabnight",
