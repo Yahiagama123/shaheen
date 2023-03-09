@@ -9,10 +9,10 @@
  "engine": "InnoDB",
  "field_order": [
   "security_officer",
+  "date",
   "column_break_dukbt",
   "security_manager",
-  "section_break_vbfna",
-  "date",
+  "day",
   "section_break_uyrcu",
   "list"
  ],
@@ -38,10 +38,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "section_break_vbfna",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "date",
    "fieldtype": "Date",
    "in_list_view": 1,
@@ -57,11 +53,17 @@
    "fieldtype": "Table",
    "label": "Record list",
    "options": "tabcars"
+  },
+  {
+   "fieldname": "day",
+   "fieldtype": "Select",
+   "label": "Day",
+   "options": "\n\u0627\u0644\u0633\u0628\u062a\n\u0627\u0644\u0627\u062d\u062f\n\u0627\u0644\u0627\u062b\u0646\u064a\u0646\n\u0627\u0644\u062b\u0644\u0627\u062b\u0627\u0621\n\u0627\u0644\u0627\u0631\u0628\u0639\u0627\u0621\n\u0627\u0644\u062e\u0645\u064a\u0633\n\u0627\u0644\u062c\u0645\u0639\u0647"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-01 17:29:09.105706",
+ "modified": "2023-03-08 10:02:39.716415",
  "modified_by": "Administrator",
  "module": "security",
  "name": "Record",

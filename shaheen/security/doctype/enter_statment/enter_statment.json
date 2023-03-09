@@ -2,7 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:pernum",
- "creation": "2023-03-02 10:24:01.738664",
+ "creation": "2023-03-08 08:23:14.498488",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -21,14 +21,15 @@
  ],
  "fields": [
   {
+   "fieldname": "pernum",
+   "fieldtype": "Data",
+   "label": "PerNum",
+   "unique": 1
+  },
+  {
    "fieldname": "declares_exit",
    "fieldtype": "Data",
    "label": "He declares an exit"
-  },
-  {
-   "fieldname": "num",
-   "fieldtype": "Data",
-   "label": "Number"
   },
   {
    "fieldname": "department",
@@ -37,15 +38,23 @@
    "options": "Departments"
   },
   {
+   "fieldname": "column_break_yg3je",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "num",
+   "fieldtype": "Data",
+   "label": "Number"
+  },
+  {
    "fieldname": "manager",
    "fieldtype": "Link",
    "label": "Department Manager",
    "options": "Employees"
   },
   {
-   "fieldname": "fix",
-   "fieldtype": "Data",
-   "label": "For Fix"
+   "fieldname": "section_break_kkqfk",
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "empolyee",
@@ -54,30 +63,21 @@
    "options": "Employees"
   },
   {
-   "fieldname": "section_break_kkqfk",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "column_break_yg3je",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "column_break_2oyji",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "pernum",
+   "fieldname": "fix",
    "fieldtype": "Data",
-   "label": "PerNum",
-   "unique": 1
+   "label": "For Fix"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-05 10:29:25.118708",
+ "modified": "2023-03-08 08:23:14.498488",
  "modified_by": "Administrator",
  "module": "security",
- "name": "Statements",
+ "name": "Enter Statment",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
