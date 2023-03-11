@@ -1,21 +1,19 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "Visit List.#####",
- "creation": "2023-03-02 11:36:27.869520",
+ "autoname": "format:{####}",
+ "creation": "2023-03-11 11:14:32.843645",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "security_officer",
-  "column_break_39sg0",
-  "security_manager",
-  "section_break_mahp0",
   "day",
-  "column_break_r9cho",
+  "column_break_lq3x5",
+  "security_manager",
   "date",
-  "section_break_n2y7a",
+  "section_break_sfgad",
   "list"
  ],
  "fields": [
@@ -34,14 +32,10 @@
    "fieldname": "list",
    "fieldtype": "Table",
    "label": "List",
-   "options": "tabvisit"
+   "options": "tabcarshift"
   },
   {
-   "fieldname": "column_break_r9cho",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_n2y7a",
+   "fieldname": "section_break_sfgad",
    "fieldtype": "Section Break"
   },
   {
@@ -57,20 +51,16 @@
    "options": "Employees"
   },
   {
-   "fieldname": "column_break_39sg0",
+   "fieldname": "column_break_lq3x5",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_mahp0",
-   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-09 17:28:54.568545",
+ "modified": "2023-03-11 11:21:45.653932",
  "modified_by": "Administrator",
  "module": "security",
- "name": "Visit",
+ "name": "carshift",
  "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
